@@ -39,3 +39,14 @@ $total-pertanyaan: 5;
     }
   }
 }
+
+@media (max-width: 767px) {
+  .accordion-section {
+    margin-top: 20px;
+
+    .accordion-section-title{
+      font-size: 1.5rem;
+      text-align: left !important;
+    }
+  }
+}
