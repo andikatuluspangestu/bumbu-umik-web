@@ -17,33 +17,39 @@
     outline: none !important;
   }
 
-  .testimonial-item {
-    text-align: center;
-    margin-bottom: 4rem;
+  // Gunakan @for untuk mengulangi style pada elemen testimonial-item
+  @for $i from 1 through 2 { // Ini mengulangi sebanyak dua kali, sesuai dengan jumlah testimonial Anda
+    .carousel-item:nth-child(#{$i}) { // Menggunakan :nth-child untuk memilih elemen yang sesuai
+      .testimonial-item {
+        text-align: center;
+        margin-bottom: 4rem;
 
-    img {
-      width: 100px;
-      border-radius: 50%;
-      margin-bottom: 20px;
-      max-width: 150px;
-      height: auto;
-      margin-bottom: 1.5rem;
-    }
+        img {
+          width: 100px;
+          border-radius: 50%;
+          margin-bottom: 20px;
+          max-width: 150px;
+          height: auto;
+          margin-bottom: 1.5rem;
+        }
 
-    h3 {
-      font-size: 24px;
-      margin-bottom: 1rem;
-    }
+        h3 {
+          font-size: 24px;
+          margin-bottom: 1rem;
+        }
 
-    .rating {
-      font-size: 24px;
-      margin-bottom: 1rem;
-    }
+        .rating {
+          font-size: 24px;
+          margin-bottom: 1rem;
+        }
 
-    p {
-      font-size: 16px;
+        p {
+          font-size: 16px;
+        }
+      }
     }
   }
+
 
   .testimonial-title {
     text-align: center;
