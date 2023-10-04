@@ -23,10 +23,8 @@
 //   }
 // }
 
-// Buat variabel untuk jumlah pertanyaan
 $total-pertanyaan: 5;
 
-// Gunakan perulangan untuk menghasilkan gaya untuk setiap pertanyaan
 @for $i from 1 through $total-pertanyaan {
   .accordion-item:nth-child(#{$i}) {
     h2.accordion-header {
