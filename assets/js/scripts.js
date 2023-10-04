@@ -36,33 +36,31 @@ $(document).ready(function () {
       if (index === text.length) {
         clearInterval(interval);
       }
-    }, 100); 
+    }, 100);
   }
 
   typeEffect();
-});
 
-  document.getElementById('belanja-sekarang').addEventListener('click', function (event) {
+  document.getElementById("belanja-sekarang").addEventListener("click", function (event) {
+
     event.preventDefault();
 
     Swal.fire({
-      title: 'Konfirmasi',
-      text: 'Anda akan diarahkan ke halaman baru. Lanjutkan?',
-      icon: 'question',
+      title: "Konfirmasi",
+      text: "Anda akan diarahkan ke halaman baru. Lanjutkan?",
+      icon: "question",
       showCancelButton: true,
-      confirmButtonText: 'Ya, Lanjutkan',
-      cancelButtonText: 'Batal',
-      customClass: {
-        confirmButton: 'btn-custom-class' // Pengaturan gaya langsung
-      },
-      onBeforeOpen: () => {
-        // Pengaturan gaya tambahan jika diperlukan
-        document.querySelector('.swal2-confirm.btn-custom-class').style.backgroundColor = '#E1A56B';
-        document.querySelector('.swal2-confirm.btn-custom-class').style.color = '#fff';
-      }
+      confirmButtonText: "Ya, Lanjutkan",
+      cancelButtonText: "Batal",
     }).then((result) => {
       if (result.isConfirmed) {
-        window.open('https://shopee.co.id/Bumbu-Umik-Bumbu-Instan-Bumbu-Dapur-Penyedap-Rasa-Makanan-65Gram-i.926276408.23419570179?sp_atk=2ac064fd-8f1b-4ef3-9e1c-7367c4fcf0a0&xptdk=2ac064fd-8f1b-4ef3-9e1c-7367c4fcf0a0','_BLANK')
+        window.open(
+          "https://shopee.co.id/Bumbu-Umik-Bumbu-Instan-Bumbu-Dapur-Penyedap-Rasa-Makanan-65Gram-i.926276408.23419570179?sp_atk=2ac064fd-8f1b-4ef3-9e1c-7367c4fcf0a0&xptdk=2ac064fd-8f1b-4ef3-9e1c-7367c4fcf0a0",
+          "_BLANK"
+        );
       }
     });
   });
+});
+
+
