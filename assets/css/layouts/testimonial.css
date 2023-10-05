@@ -226,6 +226,28 @@ textarea:focus {
   box-shadow: none;
 }
 
+.ulasan-modal-button {
+  background-color: #E1A56B;
+  border: 2px solid #E1A56B;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.ulasan-modal-button:hover {
+  background-color: #ffffff;
+  color: #E1A56B;
+  border: 2px solid #E1A56B;
+}
+.ulasan-modal-button:hover {
+  background-color: #ffffff;
+  border: solid 2px #E1A56B;
+  color: #E1A56B;
+}
+
 @media (max-width: 768px) {
   .col-md-2 {
     text-align: center;
