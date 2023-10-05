@@ -118,14 +118,17 @@
     </section>
 
     <section id="products">
-      <div class="container py-3">
-        <h1 class="text-start mb-1">
-          Produk Kami
-        </h1>
-        <p class="text-white">
-          Bumbu Masak Umik memiliki berbagai macam varian rasa, dapat memenuhi kebutuhan konsumen akan bumbu masak yang
-          berkualitas.
-        </p>
+      <div class="container pt-3">
+
+        <div class="row">
+          <div class="col-12 mt-5 mb-3">
+            <h1 class="mb-1">Produk Kami</h1>
+            <p class="text-white">
+              Memiliki berbagai macam varian rasa, dapat memenuhi kebutuhan konsumen akan bumbu masak yang
+              berkualitas.
+            </p>
+          </div>
+        </div>
 
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mb-5">
 
@@ -515,6 +518,20 @@
         </div>
     </section>
 
+    <section id="inspirasi">
+      <div class="row">
+        <div class="col-12">
+          <h3 class="inspirasi-title">Inspirasi Terbaru</h3>
+          <p class="inspirasi-subtitle">
+            Temukan inspirasi terbaru dari Bumbu Umik yang hadir untuk memenuhi kebutuhan bumbu dapur rumah tangga anda.
+          </p>
+        </div>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mb-5">
+          <!-- Buat Card Artikel Disini -->
+        </div>
+      </div>
+    </section>
+
     <section id="testimonial">
       <div class="container">
         <div class="testimonial-title text-center pb-3">
@@ -524,6 +541,7 @@
 
         <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
+
             <!-- First People -->
             <div class="carousel-item active">
               <div class="row justify-content-center">
@@ -569,16 +587,18 @@
                 </div>
               </div>
             </div>
-          </div>
 
-          <a class="carousel-control-prev" href="#testimonialCarousel" role="button" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#testimonialCarousel" role="button" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </a>
+            <!-- Tambahkan tombol navigasi -->
+            <a class="carousel-control-prev" href="#testimonialCarousel" role="button" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#testimonialCarousel" role="button" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </a>
+
+          </div>
         </div>
 
         <div class="text-center mt-4">
@@ -608,12 +628,42 @@
             </p>
             <div class="row ecommerce">
               <div class="col-12 col-md-5">
-                <a href="https://shopee.co.id/Bumbu-Umik-Bumbu-Instan-Bumbu-Dapur-Penyedap-Rasa-Makanan-65Gram-i.926276408.23419570179?sp_atk=2ac064fd-8f1b-4ef3-9e1c-7367c4fcf0a0&xptdk=2ac064fd-8f1b-4ef3-9e1c-7367c4fcf0a0" class="btn btn-danger" id="belanja-sekarang" >Belanja Sekarang</a>
+                <a href="https://shopee.co.id/Bumbu-Umik-Bumbu-Instan-Bumbu-Dapur-Penyedap-Rasa-Makanan-65Gram-i.926276408.23419570179?sp_atk=2ac064fd-8f1b-4ef3-9e1c-7367c4fcf0a0&xptdk=2ac064fd-8f1b-4ef3-9e1c-7367c4fcf0a0"
+                  class="btn btn-danger" id="belanja-sekarang">Belanja Sekarang</a>
               </div>
             </div>
           </div>
         </div>
-      </div>      
+      </div>
+    </section>
+
+    <section id="subcribe">
+      <div class="container">
+        <div class="subcribe-card">
+          <div class="row d-flex align-items-center">
+            <div class="col-lg-6 col-12">
+              <h3 class="subcribe-title">
+                Subscribe
+              </h3>
+              <p class="subcribe-subtitle">
+                Dapatkan informasi terbaru dari produk kami dengan berlangganan email.
+              </p>
+            </div>
+            <div class="col-lg-6 col-12">
+              <form action="">
+                <div class="input-group mb-3">
+                  <input type="email" class="form-control" placeholder="Masukkan Email Anda" aria-label="Email"
+                    aria-describedby="button-addon2">
+                  <button class="btn btn-danger" type="button" id="button-addon2">
+                    <i class="fas fa-paper-plane"></i> Submit
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+
+      </div>
     </section>
 
     <section id="kritiksaran">
@@ -664,23 +714,25 @@
                   <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
                     data-bs-parent="#faqAccordion">
                     <div class="accordion-body">
-                      Bumbu Umik adalah bumbu masak yang dibuat untuk memasak masakan Indonesia. Memiliki berbagai macam varian rasa. Dan terbuat dari bahan-bahan yang berkualitas.
+                      Bumbu Umik adalah bumbu masak yang dibuat untuk memasak masakan Indonesia. Memiliki berbagai macam
+                      varian rasa. Dan terbuat dari bahan-bahan yang berkualitas.
                     </div>
                   </div>
                 </div>
-                
+
                 <!-- Item 2 -->
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="headingTwo">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
-                      aria-expanded="true" aria-controls="collapseTwo">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
                       Apa Bumbu Umik dibuat dari rempah asli?
                     </button>
                   </h2>
                   <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                     data-bs-parent="#faqAccordion">
                     <div class="accordion-body">
-                      Bumbu Umik terbuat dari rempah-rempah asli Indonesia yang berkualitas, dibuktikan dengan rasa yang kuat dan enak.
+                      Bumbu Umik terbuat dari rempah-rempah asli Indonesia yang berkualitas, dibuktikan dengan rasa yang
+                      kuat dan enak.
                     </div>
                   </div>
                 </div>
@@ -688,8 +740,8 @@
                 <!-- Item 3 -->
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="headingThird">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThird"
-                      aria-expanded="true" aria-controls="collapseThird">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseThird" aria-expanded="true" aria-controls="collapseThird">
                       Apakah Bumbu Umik aman untuk dikonsumsi?
                     </button>
                   </h2>
@@ -704,8 +756,8 @@
                 <!-- Item 4 -->
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="headingFourth">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFourth"
-                      aria-expanded="true" aria-controls="collapseFourth">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseFourth" aria-expanded="true" aria-controls="collapseFourth">
                       Apakah Bumbu Umik sudah memiliki sertifikat halal?
                     </button>
                   </h2>
@@ -720,8 +772,8 @@
                 <!-- Item 5 -->
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="headingFifth">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFifth"
-                      aria-expanded="true" aria-controls="collapseFifth">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseFifth" aria-expanded="true" aria-controls="collapseFifth">
                       Apakah Bumbu Umik sudah memiliki izin BPOM?
                     </button>
                   </h2>
@@ -741,6 +793,11 @@
     </section>
   </main>
 
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 250">
+    <path fill="#44465F" fill-opacity="1"
+      d="M0,64L48,85.3C96,107,192,149,288,181.3C384,213,480,235,576,213.3C672,192,768,128,864,117.3C960,107,1056,149,1152,170.7C1248,192,1344,192,1392,192L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+    </path>
+  </svg>
   <footer id="footer">
     <div class="container">
       <div class="row footer-top">
@@ -997,12 +1054,12 @@
   <!-- End Ulasan Modal -->
 
   <!-- CDN Vendors Scripts -->
-  <script src="/vendors/bootstrap-5.3.2/dist/js/bootstrap.bundle.js"></script>
+  <script src="./vendors/bootstrap-5.3.2/dist/js/bootstrap.bundle.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.8/umd/popper.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert2/11.7.31/sweetalert2.min.js"></script>
-  <script src="assets/js/scripts.js"></script>
+  <script src="./assets/js/scripts.js"></script>
 
 </body>
 
