@@ -1,0 +1,37 @@
+// Import base variables
+@import "../base/reset";
+@import "../base/colors";
+@import "../base/typography";
+
+#inspirasi {
+  height: 500px;
+
+  .inspirasi-title {
+    color: $color-primary;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 50px;
+    font-family: $font-secondary;
+  }
+
+  .inspirasi-subtitle {
+    color: $color-secondary;
+    font-family: $font-primary;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+}
+
+// Responsive Media Queries - Mobile
+@media (max-width: 767px) {
+  // Kode disini
+}
+
+// Responsive Media Queries - Tablet
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  // Kode disini
+}
