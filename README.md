@@ -1,5 +1,7 @@
 ## Tugas Praktik : Bumbu Umik Product Landing Page
 
+![](https://raw.githubusercontent.com/andikatuluspangestu/bumbu-umik-web/main/assets/img/preview.png)
+
 Landing Page Bumbu Umik adalah sebuah website yang berisi informasi mengenai produk bumbu masakan yang dijual oleh Bumbu Umik. Website ini dibuat menggunakan HTML, CSS, dan Bootstrap dengan menerapkan beberapa Library Javascript.
 
 > Bumbu Masak Umik adalah produk bumbu masak yang dijual oleh Bumbu Umik. Bumbu Umik merupakan sebuah usaha kecil yang bergerak di bidang kuliner. Produknya memiliki jangkauan pasar yang luas, bumbu Umik memiliki beberapa produk bumbu masak, diantaranya adalah bumbu masak nasi goreng, bumbu masak soto, bumbu masak rawon, bumbu masak rendang, dan bumbu masak opor. Bumbu Umik juga memiliki beberapa produk lainnya, seperti bumbu masak ayam goreng, bumbu masak ayam bakar, bumbu masak ayam goreng, dan bumbu masak ayam bakar.
