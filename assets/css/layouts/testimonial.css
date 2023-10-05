@@ -37,7 +37,7 @@ textarea:focus {
 
 #testimonial {
   padding: 100px;
-  background-color: #ffffff;
+  background-color: #44465F;
 }
 #testimonial .carousel-control-prev,
 #testimonial .carousel-control-next {
@@ -47,22 +47,25 @@ textarea:focus {
   border-radius: 50%;
   border: none;
   outline: none !important;
+  margin-top: 120px !important;
 }
 #testimonial .carousel-item:nth-child(1) .testimonial-item {
   text-align: center;
   margin-bottom: 4rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  border-radius: 10px;
+  background-color: #537987;
 }
 #testimonial .carousel-item:nth-child(1) .testimonial-item img {
   width: 100px;
   border-radius: 50%;
-  margin-bottom: 20px;
-  max-width: 150px;
-  height: auto;
   margin-bottom: 1.5rem;
 }
 #testimonial .carousel-item:nth-child(1) .testimonial-item h3 {
   font-size: 24px;
   margin-bottom: 1rem;
+  color: #E1A56B;
 }
 #testimonial .carousel-item:nth-child(1) .testimonial-item .rating {
   font-size: 24px;
@@ -70,22 +73,26 @@ textarea:focus {
 }
 #testimonial .carousel-item:nth-child(1) .testimonial-item p {
   font-size: 16px;
+  margin-bottom: 1rem;
+  color: #ffffff;
 }
 #testimonial .carousel-item:nth-child(2) .testimonial-item {
   text-align: center;
   margin-bottom: 4rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  border-radius: 10px;
+  background-color: #537987;
 }
 #testimonial .carousel-item:nth-child(2) .testimonial-item img {
   width: 100px;
   border-radius: 50%;
-  margin-bottom: 20px;
-  max-width: 150px;
-  height: auto;
   margin-bottom: 1.5rem;
 }
 #testimonial .carousel-item:nth-child(2) .testimonial-item h3 {
   font-size: 24px;
   margin-bottom: 1rem;
+  color: #E1A56B;
 }
 #testimonial .carousel-item:nth-child(2) .testimonial-item .rating {
   font-size: 24px;
@@ -93,6 +100,8 @@ textarea:focus {
 }
 #testimonial .carousel-item:nth-child(2) .testimonial-item p {
   font-size: 16px;
+  margin-bottom: 1rem;
+  color: #ffffff;
 }
 #testimonial .testimonial-title {
   text-align: center;
@@ -108,7 +117,7 @@ textarea:focus {
 #testimonial .testimonial-title p {
   font-size: 18px;
   font-weight: 400;
-  color: #44465F;
+  color: #ffffff;
   margin-bottom: 20px;
 }
 #testimonial .testimonial-button {
@@ -128,49 +137,43 @@ textarea:focus {
   border: 2px solid #E1A56B;
 }
 #testimonial .testimonial-button:hover {
-  background-color: #ffffff;
+  background-color: #44465F;
   border: solid 2px #E1A56B;
-  color: #E1A56B;
+  color: #ffffff;
 }
 
 .ulasan {
   background-color: #f8f9fa;
   padding: 50px 0;
 }
-
 .ulasan .card {
   border: none;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   margin-top: 20px;
 }
-
 .ulasan .card .card-body {
   padding: 20px;
 }
-
-.avatar-image {
+.ulasan .card .card-body .avatar-image {
   width: 100%;
   max-width: 60px;
   border-radius: 50%;
 }
-
 .ulasan .card .card-body .text-secondary {
   font-size: 0.9rem;
 }
-
-.float-right {
+.ulasan .card .card-body .float-right {
   float: right;
 }
-
-.fa-star {
-  color: #ffc107;
+.ulasan .card .card-body .fa-star,
+.ulasan .card .card-body .fa-star-half {
+  color: #ffc107 !important;
 }
-
-.fa-star-half {
-  color: #ffc107;
+.ulasan .card .card-body p {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
 }
-
 .ulasan-title {
   font-size: 36px;
   font-weight: 700;
@@ -178,54 +181,36 @@ textarea:focus {
   color: #E1A56B;
   font-family: "Croissant One", cursive;
 }
-
-.ulasan .card .card-body p {
-  font-size: 1rem;
-  margin-bottom: 0.5rem;
-}
-
-.pagination {
+.ulasan .pagination {
   justify-content: center;
 }
-
-.page-item.active .page-link {
-  background-color: #E1A56B;
-  border-color: #E1A56B;
-}
-
-.page-link {
-  color: #44465F;
-}
-
-.page-link:hover {
-  background-color: #E1A56B;
-  border-color: #E1A56B;
-  color: #44465F;
-}
-
-.page-item .active {
+.ulasan .pagination .page-item.active .page-link {
   background-color: #E1A56B;
   border-color: #E1A56B;
   color: #fff;
 }
-
-.page-item.disabled .page-link {
+.ulasan .pagination .page-item.disabled .page-link {
   color: #44465F;
   pointer-events: none;
   cursor: auto;
   background-color: #fff;
   border-color: #fff;
 }
-
-.page-item.disabled .page-link:hover {
+.ulasan .pagination .page-item.disabled .page-link:hover {
   background-color: #af9898;
   border-color: #af9898;
 }
-
-.page-item.disabled .page-link:focus {
+.ulasan .pagination .page-item.disabled .page-link:focus {
   box-shadow: none;
 }
-
+.ulasan .pagination .page-item .page-link {
+  color: #44465F;
+}
+.ulasan .pagination .page-item .page-link:hover {
+  background-color: #E1A56B;
+  border-color: #E1A56B;
+  color: #44465F;
+}
 .ulasan-modal-button {
   background-color: #E1A56B;
   border: 2px solid #E1A56B;
