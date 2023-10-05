@@ -1,4 +1,5 @@
 $(document).ready(function () {
+  
   // Active link
   function setActiveLink() {
     var currentHash = window.location.hash;
