@@ -4,8 +4,8 @@
 @import "../base/typography";
 
 #call-to-action {
-  background-color: #44465f;
-  padding: 100px;
+  background-color: $color-white;
+  padding: 100px 100px 50px 100px;
 
   img {
     width: 100%;
@@ -16,11 +16,11 @@
     font-size: 36px;
     font-weight: 700;
     margin-bottom: 20px;
-    color: $color-white;
+    color: $color-primary;
     font-family: $font-secondary;
 
     strong {
-      color: $color-primary;
+      color: $color-secondary;
     }
 
   }
@@ -28,7 +28,7 @@
   p {
     font-size: 18px;
     font-weight: 400;
-    color: $color-white;
+    color: $color-secondary;
     margin-bottom: 20px;
   }
 
@@ -36,7 +36,7 @@
     @include button-style($color-primary);
 
     &:hover {
-      background-color: #44465f;
+      background-color: $color-white;
       border: solid 2px $color-primary;
       color: $color-primary;
     }

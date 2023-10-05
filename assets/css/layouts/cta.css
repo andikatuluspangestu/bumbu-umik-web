@@ -36,8 +36,8 @@ textarea:focus {
 }
 
 #call-to-action {
-  background-color: #44465f;
-  padding: 100px;
+  background-color: #ffffff;
+  padding: 100px 100px 50px 100px;
 }
 #call-to-action img {
   width: 100%;
@@ -47,16 +47,16 @@ textarea:focus {
   font-size: 36px;
   font-weight: 700;
   margin-bottom: 20px;
-  color: #ffffff;
+  color: #E1A56B;
   font-family: "Croissant One", cursive;
 }
 #call-to-action h1 strong {
-  color: #E1A56B;
+  color: #44465F;
 }
 #call-to-action p {
   font-size: 18px;
   font-weight: 400;
-  color: #ffffff;
+  color: #44465F;
   margin-bottom: 20px;
 }
 #call-to-action .btn {
@@ -76,7 +76,7 @@ textarea:focus {
   border: 2px solid #E1A56B;
 }
 #call-to-action .btn:hover {
-  background-color: #44465f;
+  background-color: #ffffff;
   border: solid 2px #E1A56B;
   color: #E1A56B;
 }
