@@ -87,5 +87,14 @@ footer .copyright {
   color: #E1A56B !important;
   margin-top: 20px;
 }
+footer .social-icon .facebook:hover {
+  color: #3b5998;
+}
+footer .social-icon .instagram:hover {
+  color: #bd4710;
+}
+footer .social-icon .twitter:hover {
+  color: rgb(0, 195, 255);
+}
 
 /*# sourceMappingURL=footer.css.map */
