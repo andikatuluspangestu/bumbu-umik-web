@@ -67,4 +67,16 @@ footer {
     color: $color-primary !important;
     margin-top: 20px;
   }
+
+  .social-icon .facebook:hover {
+    color: #3b5998;
+  }
+
+  .social-icon .instagram:hover {
+    color: #bd4710;
+  }
+
+  .social-icon .twitter:hover{
+    color: rgb(0, 195, 255);
+  }
 }
