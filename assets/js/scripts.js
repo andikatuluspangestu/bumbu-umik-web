@@ -62,14 +62,5 @@ $(document).ready(function () {
       }
     });
   });
-// Tanggal Otomatis
-  var currentDateElements = document.querySelectorAll("#current-date");  
-  currentDateElements.forEach(function (element) {
-    var currentDate = new Date();
-    var options = { year: "numeric", month: "long", day: "numeric" };
-    element.textContent = currentDate.toLocaleDateString("id-ID", options);
-  });
 
 });
-
-
