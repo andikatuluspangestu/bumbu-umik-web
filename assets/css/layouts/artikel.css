@@ -35,80 +35,79 @@ textarea:focus {
   transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
-.artikel-title {
+#artikel {
+  padding: 50px 0;
+  background-color: #F9F9F9;
+}
+#artikel .artikel-title {
+  font-family: "Croissant One", cursive;
   font-size: 36px;
-  font-weight: 700;
-  margin-bottom: 20px;
-  color: #E1A56B;
-  font-family: "Croissant One", cursive;
-}
-.artikel-title strong {
-  color: #44465F;
-}
-
-.artikel-date {
-  font-size: 18px;
   font-weight: 400;
   color: #44465F;
   margin-bottom: 20px;
 }
 
-.artikel-content img {
-  width: 100%;
-  border-radius: 10px;
+#rekomendasi {
+  padding-bottom: 50px;
+  background-color: #F9F9F9;
 }
-
-.artikel-content p {
-  font-size: 18px;
-  font-weight: 400;
-  color: #44465F;
-  margin-bottom: 20px;
-}
-
 #rekomendasi .rekomendasi-title {
-  font-size: 30px;
-  font-weight: 700;
-  margin-bottom: 20px;
-  color: #E1A56B;
   font-family: "Croissant One", cursive;
-}
-#rekomendasi .rekomendasi-title strong {
+  font-size: 36px;
+  font-weight: 400;
   color: #44465F;
+  margin-bottom: 20px;
+}
+#rekomendasi .rekomendasi-subtitle {
+  font-size: 18px;
+  font-weight: 400;
+  color: #44465F;
+  margin-bottom: 20px;
 }
 #rekomendasi .card {
-  border-radius: 10px;
-  border: solid 1px #44465F;
-  margin-bottom: 20px;
-  background-color: #ffffff;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: none;
+  transition: all 0.3s ease-in-out;
+  border-radius: 15px;
+  padding: 15px 5px 10px 5px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: #44465F;
+}
+#rekomendasi .card:hover {
+  transform: translateY(-10px);
+}
+#rekomendasi .card .card-header {
+  border: none;
+}
+#rekomendasi .card .card-header img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px !important;
 }
 #rekomendasi .card .card-body {
-  padding: 0px;
-}
-#rekomendasi .card .card-body .artikel-title {
-  font-size: 20px;
-  font-weight: 700;
-  margin-bottom: 20px;
-  padding: 0 20px 0px 20px;
-  color: #E1A56B;
-  font-family: "Croissant One", cursive;
-}
-#rekomendasi .card .card-body .artikel-title strong {
-  color: #44465F;
+  border: none;
 }
 #rekomendasi .card .card-body .artikel-date {
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 400;
-  padding: 20px;
-  color: #44465F;
-  margin-bottom: 20px;
+  color: #E1A56B;
+  margin-bottom: 10px;
+}
+#rekomendasi .card .card-body .artikel-date a {
+  color: #ffffff;
+}
+#rekomendasi .card .card-body .artikel-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 10px;
 }
 #rekomendasi .card .card-footer {
-  padding: 0 20px 20px 20px;
   border: none;
-  background-color: #ffffff;
 }
 #rekomendasi .card .card-footer .btn {
+  margin-top: 10px;
   background-color: #E1A56B;
   border: 2px solid #E1A56B;
   color: #ffffff;
@@ -120,14 +119,9 @@ textarea:focus {
   cursor: pointer;
 }
 #rekomendasi .card .card-footer .btn:hover {
-  background-color: #ffffff;
+  background-color: #44465F;
   color: #E1A56B;
   border: 2px solid #E1A56B;
-}
-#rekomendasi .card .card-footer .btn:hover {
-  background-color: #ffffff;
-  border: solid 2px #E1A56B;
-  color: #E1A56B;
 }
 
 /*# sourceMappingURL=artikel.css.map */
