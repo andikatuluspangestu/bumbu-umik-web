@@ -71,6 +71,9 @@ textarea:focus {
   font-size: 24px;
   margin-bottom: 1rem;
 }
+#testimonial .carousel-item:nth-child(1) .testimonial-item .rating .fas.fa-star {
+  color: gold; /* Warna emas */
+}
 #testimonial .carousel-item:nth-child(1) .testimonial-item p {
   font-size: 16px;
   margin-bottom: 1rem;
@@ -97,6 +100,9 @@ textarea:focus {
 #testimonial .carousel-item:nth-child(2) .testimonial-item .rating {
   font-size: 24px;
   margin-bottom: 1rem;
+}
+#testimonial .carousel-item:nth-child(2) .testimonial-item .rating .fas.fa-star {
+  color: gold; /* Warna emas */
 }
 #testimonial .carousel-item:nth-child(2) .testimonial-item p {
   font-size: 16px;
