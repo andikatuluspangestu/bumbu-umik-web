@@ -170,6 +170,14 @@ textarea:focus {
 .ulasan .card .card-body .fa-star-half {
   color: #ffc107 !important;
 }
+.ulasan .card .card-body .fa-star::before {
+  content: "\f005";
+  color: #ffc107 !important;
+}
+.ulasan .card .card-body .fa-star-half::before {
+  content: "\f089";
+  color: #ffc107 !important;
+}
 .ulasan .card .card-body p {
   font-size: 1rem;
   margin-bottom: 0.5rem;
@@ -241,5 +249,7 @@ textarea:focus {
     margin-bottom: 10px;
   }
 }
+
+
 
 /*# sourceMappingURL=testimonial.css.map */

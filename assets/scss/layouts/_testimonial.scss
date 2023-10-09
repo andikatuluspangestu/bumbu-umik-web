@@ -111,11 +111,6 @@
         float: right;
       }
 
-      .fa-star,
-      .fa-star-half {
-        color: #ffc107 !important;
-      }
-
       p {
         font-size: 1rem;
         margin-bottom: 0.5rem;
@@ -183,6 +178,16 @@
       color: $color-primary;
     }
   }
+}
+
+.fa-star-half {
+  content: "\f089";
+  color: #ffc107 !important;
+}
+
+.fa-star {
+  content: "\f089";
+  color: #ffc107 !important;
 }
 
 @media (max-width: 768px) {
