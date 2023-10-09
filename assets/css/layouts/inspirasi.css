@@ -35,64 +35,57 @@ textarea:focus {
   transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
-#inspirasi .container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+#inspirasi {
+  padding: 100px 0;
 }
-#inspirasi .inspirasi-title {
-  color: #E1A56B;
+#inspirasi h3 {
   font-size: 36px;
   font-weight: 700;
-  text-align: center;
-  margin-top: 50px;
+  margin-bottom: 20px;
+  color: #E1A56B;
   font-family: "Croissant One", cursive;
 }
-#inspirasi .inspirasi-subtitle {
-  color: #44465F;
-  font-family: "M PLUS Rounded 1c", sans-serif;
-  font-size: 18px;
-  font-weight: 400;
-  text-align: center;
-  margin-top: 20px;
-}
 #inspirasi .card {
-  border: 1px solid #E1A56B;
-  background-color: #44465F;
+  border: none;
   transition: all 0.3s ease-in-out;
   border-radius: 15px;
-  padding: 10px;
+  padding: 15px 5px 10px 5px;
   display: flex;
   flex-direction: column;
-  min-height: 100%;
-}
-#inspirasi .card .card-img {
-  width: 100%;
   height: 100%;
-  overflow: hidden;
+  background-color: #44465F;
 }
-#inspirasi .card .card-img img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+#inspirasi .card:hover {
+  transform: translateY(-10px);
 }
-#inspirasi .card:hover img {
-  transform: scale(1.1);
-  transition: all 0.3s ease-in-out;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+#inspirasi .card .card-header {
+  border: none;
+}
+#inspirasi .card .card-header img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px !important;
 }
 #inspirasi .card .card-body {
-  height: 90px;
-  overflow: hidden;
+  border: none;
+}
+#inspirasi .card .card-body .publish-date {
+  font-size: 14px;
+  font-weight: 400;
+  color: #E1A56B;
+  margin-bottom: 10px;
+}
+#inspirasi .card .card-body .title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 10px;
 }
 #inspirasi .card .card-footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  border: none;
 }
-#inspirasi .card .card-footer a.btn.btn-primary {
+#inspirasi .card .card-footer .btn {
+  margin-top: 10px;
   background-color: #E1A56B;
   border: 2px solid #E1A56B;
   color: #ffffff;
@@ -103,19 +96,10 @@ textarea:focus {
   transition: all 0.3s ease-in-out;
   cursor: pointer;
 }
-#inspirasi .card .card-footer a.btn.btn-primary:hover {
-  background-color: #ffffff;
+#inspirasi .card .card-footer .btn:hover {
+  background-color: #44465F;
   color: #E1A56B;
   border: 2px solid #E1A56B;
-}
-#inspirasi .card h5 {
-  font-size: 18px;
-  color: #ffffff;
-  margin-bottom: 10px;
-}
-#inspirasi .card p {
-  font-size: 12px;
-  color: #ffffff;
 }
 
 /*# sourceMappingURL=inspirasi.css.map */
