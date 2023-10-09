@@ -1,0 +1,133 @@
+@import "https://fonts.googleapis.com/css2?family=Croissant+One&display=swap";
+@import "https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Caveat&display=swap";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-size: 16px;
+  font-weight: weight(regular);
+  color: #44465F;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px 10px;
+  border-radius: 10px;
+  border: solid 2px #E1A56B;
+  font-size: 14px;
+  font-weight: 400;
+  color: #44465F;
+  transition: all 0.3s ease-in-out;
+  resize: none;
+}
+textarea:focus {
+  border: solid 2px #E1A56B;
+}
+
+[data-aos] {
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  will-change: transform;
+  transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.artikel-title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #E1A56B;
+  font-family: "Croissant One", cursive;
+}
+.artikel-title strong {
+  color: #44465F;
+}
+
+.artikel-date {
+  font-size: 18px;
+  font-weight: 400;
+  color: #44465F;
+  margin-bottom: 20px;
+}
+
+.artikel-content img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.artikel-content p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #44465F;
+  margin-bottom: 20px;
+}
+
+#rekomendasi .rekomendasi-title {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #E1A56B;
+  font-family: "Croissant One", cursive;
+}
+#rekomendasi .rekomendasi-title strong {
+  color: #44465F;
+}
+#rekomendasi .card {
+  border-radius: 10px;
+  border: solid 1px #44465F;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#rekomendasi .card .card-body {
+  padding: 0px;
+}
+#rekomendasi .card .card-body .artikel-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding: 0 20px 0px 20px;
+  color: #E1A56B;
+  font-family: "Croissant One", cursive;
+}
+#rekomendasi .card .card-body .artikel-title strong {
+  color: #44465F;
+}
+#rekomendasi .card .card-body .artikel-date {
+  font-size: 18px;
+  font-weight: 400;
+  padding: 20px;
+  color: #44465F;
+  margin-bottom: 20px;
+}
+#rekomendasi .card .card-footer {
+  padding: 0 20px 20px 20px;
+  border: none;
+  background-color: #ffffff;
+}
+#rekomendasi .card .card-footer .btn {
+  background-color: #E1A56B;
+  border: 2px solid #E1A56B;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+#rekomendasi .card .card-footer .btn:hover {
+  background-color: #ffffff;
+  color: #E1A56B;
+  border: 2px solid #E1A56B;
+}
+#rekomendasi .card .card-footer .btn:hover {
+  background-color: #ffffff;
+  border: solid 2px #E1A56B;
+  color: #E1A56B;
+}
+
+/*# sourceMappingURL=artikel.css.map */
